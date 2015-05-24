@@ -1,0 +1,223 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: #FFCA6D;
+    color: #000;
+    font: 12px/1.5 Arial,simsun;
+    text-align: left;
+}
+.content {
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.fly {
+    position: absolute;
+    display: inline-block;
+}
+a {
+    color: #404040;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+#lunchBg{
+    z-index: -1;
+}
+#nav_link1{
+    width: 16.5%;
+    height: 17%;
+    top: 0;
+    left: 0;
+}
+#nav_link2{
+    width: 16.5%;
+    height: 17%;
+    top: 0;
+    left: 17%;
+}
+#nav_link3{
+    width: 16.5%;
+    height: 17%;
+    top: 0;
+    left: 34%;
+}
+#nav_link4{
+    width: 16.5%;
+    height: 17%;
+    top: 0;
+    left: 51%;
+}
+#nav_link5{
+    width: 17%;
+    height: 17%;
+    top: 0;
+    left: 68%;
+}
+#nav_link6{
+    width: 17%;
+    height: 17%;
+    top: 0;
+    left: 83%;
+}
+.share-mod{
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    padding: 5px 5px 0;
+}
+#share{
+    width: 100%;
+}
+.s-text{
+    width: 230px;
+    height: 43.5%;
+    padding: 2px 28px 2px 30px;
+    overflow: hidden;
+    top: 17%;
+    left: 50%;
+    margin-left: -144px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+}
+.s-alide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.prev{
+    left: 0;
+    border-top-left-radius: 5px;
+    background: #FBFC72 url("../images/prev.jpg") no-repeat 7px 50%;
+    border-bottom-left-radius: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.next{
+    right: 0;
+    border-top-right-radius: 5px;
+    background: #FBFC72 url(../images/next.jpg) no-repeat 7px 50%;
+    border-bottom-right-radius: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.package{
+    margin-bottom: 5px;
+    font-size: 0;
+}
+.mark{
+    color: #FBF17D;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.shareLink{
+    width: 75.8%;
+    height: 21.8%;
+    bottom: 7%;
+    left: 13%;
+    position: absolute;
+    z-index: 1;
+}
+#link1,#link2,#link3{
+    width: 33%;
+    height: 100%;
+}
+#link2{
+    left: 33%;
+}
+#link3{
+    right: 0;
+}
+#warp ul{
+    margin: 0px;
+    padding: 0px;
+    width: 1175px;
+    transform-origin: 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    list-style: none;
+}
+#warp ul li{
+    float: left;
+    width: 235px;
+    font-size: 10px;
+    line-height: 12px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.banner{
+    width: 96.5%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+.banner img{
+    width: 100%;
+    position: absolute;
+}
+.menu{
+    position: relative;
+    height: 307px;
+    width: 308px;
+    background: url("../images/pro.jpg") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.menuList{
+    width: 33%;
+    height: 33%;
+    position: absolute;
+}
+#menu2{
+    left: 33%;
+}
+#menu3{
+    right: 0;
+}
+#menu4{
+    top: 33%;
+}
+#menu5{
+    top: 33%;
+    left: 33%;
+}
+#menu6{
+    top: 33%;
+    right: 0;
+}
+#menu7{
+    bottom: 0;
+}
+#menu8{
+    bottom: 0;
+    left: 33%;
+}
+#menu9{
+    bottom: 0;
+    right: 0;
+}

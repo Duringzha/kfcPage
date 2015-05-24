@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/24h.css" type="text/css"/>
+    <script src="../js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <title>夜宵</title>
+</head>
+<body>
+<script>
+    $(function(){
+        $(".bannerHead").click(function(){
+            $(this).find('#bannerBtn').toggleClass('on');
+            $(this).next().fadeToggle();
+        })
+    })
+</script>
+<div class="content">
+    <figure>
+        <img src="images/bg-app.jpg">
+        <a href="../index.html" id="nav_link1" class="fly"></a>
+        <a href="../breakfast/breakfast.html" id="nav_link2" class="fly"></a>
+        <a href="../lunch/lunch.html" id="nav_link3" class="fly"></a>
+        <a href="../teatime/teatime.html" id="nav_link4" class="fly"></a>
+        <a href="../dinner/dinner.html" id="nav_link5" class="fly"></a>
+        <a href="24h.html" id="nav_link6" class="fly"></a>
+    </figure>
+    <div class="banner">
+        <figure class="bannerHead">
+            <img class="topBg" src="images/ctop.jpg">
+            <div class="bannerTitle">通宵组合</div>
+            <div id="bannerBtn">
+                <a class="isshow">收起</a>
+                <a class="ishide">展开</a>
+            </div>
+        </figure>
+        <div class="bannerImg">
+            <img src="images/banner.jpg">
+        </div>
+        <div class="bannerFoot">
+            <img src="images/cbott.jpg">
+        </div>
+    </div>
+    <figure class="banner">
+        <div class="bannerHead">
+            <img class="topBg" src="images/ctop.jpg">
+
+            <div class="bannerTitle">通宵热卖</div>
+            <div id="bannerBtn">
+                <a class="isshow">收起</a>
+                <a class="ishide">展开</a>
+            </div>
+        </div>
+        <div class="bannerImg">
+            <img src="images/banner1.jpg">
+        </div>
+        <div class="bannerFoot">
+            <img src="images/cbott.jpg">
+        </div>
+    </figure>
+    <figure class="banner">
+        <div class="bannerHead">
+            <img class="topBg" src="images/ctop.jpg">
+
+            <div class="bannerTitle">通宵推荐</div>
+            <div id="bannerBtn">
+                <a class="isshow">收起</a>
+                <a class="ishide">展开</a>
+            </div>
+        </div>
+        <div class="bannerImg">
+            <img src="images/banner2.jpg">
+        </div>
+        <div class="bannerFoot">
+            <img src="images/cbott.jpg">
+        </div>
+    </figure>
+    <figure class="banner">
+        <div class="bannerHead">
+            <img class="topBg" src="images/ctop.jpg">
+
+            <div class="bannerTitle">通宵精选</div>
+            <div id="bannerBtn">
+                <a class="isshow">收起</a>
+                <a class="ishide">展开</a>
+            </div>
+        </div>
+        <div class="bannerImg">
+            <img src="images/banner3.jpg">
+        </div>
+        <div class="bannerFoot">
+            <img src="images/cbott.jpg">
+        </div>
+    </figure>
+    <figure class="footer">
+        营业时间 23:00－次日6:00。产品及包装以实物为准，产品均加强检测，请放心食用。产品以餐厅实际供应为准。
+    </figure>
+</div>
+</body>
+</html>

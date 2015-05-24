@@ -1,0 +1,464 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: #B0FFE2;
+    color: #000;
+    font: 12px/1.5 Arial,simsun;
+    text-align: left;
+}
+.content {
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.fly {
+    position: absolute;
+    display: inline-block;
+}
+a {
+    color: #404040;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+#nav_link1{
+    width: 16.5%;
+    height: 81%;
+    top: 0;
+    left: 0;
+}
+#nav_link2{
+    width: 16.5%;
+    height: 81%;
+    top: 0;
+    left: 17%;
+}
+#nav_link3{
+    width: 16.5%;
+    height: 81%;
+    top: 0;
+    left: 34%;
+}
+#nav_link4{
+    width: 16.5%;
+    height: 81%;
+    top: 0;
+    left: 51%;
+}
+#nav_link5{
+    width: 17%;
+    height: 81%;
+    top: 0;
+    left: 68%;
+}
+#nav_link6{
+    width: 17%;
+    height: 81%;
+    top: 0;
+    left: 83%;
+}
+.c_top{
+    width: 100%;
+    height: 156px;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#a8fdf6),to(#b4ffd9));
+    position: relative;
+    overflow: hidden;
+}
+header{
+    width: 320px;
+    margin: 0 auto;
+    height: 156px;
+    overflow: hidden;
+    background: url("../images/bg-2.jpg") no-repeat;
+    background-size: 320px 156px;
+    position: relative;
+    z-index: 1;
+}
+.cloud{
+    position: absolute;
+    z-index: 1;
+}
+.cloud1{
+    width: 96px;
+    height: 45px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+}
+.cloud2{
+    width: 50px;
+    height: 19px;
+    background: url("../images/cloud.png") no-repeat;
+    background-size: contain;
+    top: 30%;
+    right: 0;
+}
+.title{
+    position: absolute;
+    overflow: hidden;
+    text-indent: -9999px;
+    left: 50%;
+    bottom: 19px;
+    margin-left: -23px;
+    width: 57px;
+    height: 57px;
+}
+.t{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    -webkit-animation: animate 2s ease-in-out;
+    -moz-animation: animate 2s ease-in-out;
+    animation: animate 2s ease-in-out;
+}
+.t1{
+    width: 50%;
+    height: 50%;
+    right: 28px;
+    bottom: 28px;
+    background: url("../images/t1.png") no-repeat;
+    background-size: 100%;
+}
+.t2{
+    left: 29px;
+    bottom: 28px;
+    background: url("../images/t2.png") no-repeat;
+    background-size: 28px;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.t3{
+    right: 28px;
+    top: 29px;
+    background: url("../images/t3.png") no-repeat;
+    background-size: 28px;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+
+}
+.t4{
+    left: 29px;
+    top: 29px;
+    background: url("../images/t4.png") no-repeat;
+    background-size: 28px;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.icon{
+    position: absolute;
+}
+.icon1{
+    left: 87px;
+    top: 94px;
+    width: 16px;
+    height: 38px;
+    background: url("../images/icon-1.png") no-repeat;
+    background-size: 16px 38px;
+    -webkit-animation: iconMove1 1.5s ease-in-out;
+    -moz-animation: iconMove1 1.5s ease-in-out;
+    animation: iconMove1 1.5s ease-in-out;
+}
+.icon2{
+    background: url("../images/icon-2.png") no-repeat;
+    background-size: 31px 35px;
+    left: 102px;
+    top: 48px;
+    width: 31px;
+    height: 35px;
+    -webkit-animation: iconMove2 1.5s ease-in-out;
+    -moz-animation: iconMove2 1.5s ease-in-out;
+    animation: iconMove2 1.5s ease-in-out;
+}
+.icon3{
+    background: url("../images/icon-3.png") no-repeat;
+    background-size: 37px 16px;
+    left: 150px;
+    top: 37px;
+    width: 37px;
+    height: 16px;
+    -webkit-animation: iconMove3 1.5s ease-in-out;
+    -moz-animation: iconMove3 1.5s ease-in-out;
+    animation: iconMove3 1.5s ease-in-out;
+}
+.icon4{
+    background: url("../images/icon-4.png") no-repeat;
+    background-size: 33px 34px;
+    left: 206px;
+    top: 50px;
+    width: 33px;
+    height: 34px;
+    -webkit-animation: iconMove4 1.5s ease-in-out;
+    -moz-animation: iconMove4 1.5s ease-in-out;
+    animation: iconMove4 1.5s ease-in-out;
+}
+.icon5{
+    background: url("../images/icon-5.png") no-repeat;
+    background-size: 16px 40px;
+    left: 233px;
+    top: 94px;
+    width: 16px;
+    height: 40px;
+    -webkit-animation: iconMove5 1.5s ease-in-out;
+    -moz-animation: iconMove5 1.5s ease-in-out;
+    animation: iconMove5 1.5s ease-in-out;
+}
+@-webkit-keyframes iconMove1 {
+    0%{left: 50%;top: 94px;opacity: 0}
+    60%{left: 50%;top: 94px;opacity: 0}
+    100%{left: 87px;top: 94px;opacity: 1}
+}
+@-moz-keyframes iconMove1 {
+    0%{left: 50%;top: 94px;opacity: 0}
+    60%{left: 50%;top: 94px;opacity: 0}
+    100%{left: 87px;top: 94px;opacity: 1}
+}
+@-webkit-keyframes iconMove2{
+    0%{left: 50%;top: 80%;opacity: 0}
+    60%{left: 50%;top: 80%;opacity: 0}
+    100%{left: 102px;top: 48px;opacity: 1}
+}
+@-moz-keyframes iconMove2{
+    0%{left: 50%;top: 80%;opacity: 0}
+    60%{left: 50%;top: 80%;opacity: 0}
+    100%{left: 102px;top: 48px;opacity: 1}
+}
+@-webkit-keyframes iconMove3{
+    0%{left: 150px;top: 80%;opacity: 0}
+    60%{left: 150px;top: 80%;opacity: 0}
+    100%{left: 150px;top: 37px;opacity: 1}
+}
+@-moz-keyframes iconMove3{
+    0%{left: 150px;top: 80%;opacity: 0}
+    60%{left: 150px;top: 80%;opacity: 0}
+    100%{left: 150px;top: 37px;opacity: 1}
+}
+@-webkit-keyframes iconMove4{
+    0%{left: 150px;top: 80%;opacity: 0}
+    60%{left: 150px;top: 80%;opacity: 0}
+    100%{left: 206px;top: 50px;opacity: 1}
+}
+@-moz-keyframes iconMove4{
+    0%{left: 150px;top: 80%;opacity: 0}
+    60%{left: 150px;top: 80%;opacity: 0}
+    100%{left: 206px;top: 50px;opacity: 1}
+}
+@-webkit-keyframes iconMove5{
+    0%{left: 150px;top: 94px;opacity: 0}
+    60%{left: 150px;top: 94px;opacity: 0}
+    100%{left: 233px;top: 94px;opacity: 1}
+}
+@-moz-keyframes iconMove5{
+    0%{left: 150px;top: 94px;opacity: 0}
+    60%{left: 150px;top: 94px;opacity: 0}
+    100%{left: 233px;top: 94px;opacity: 1}
+}
+
+@-webkit-keyframes animate {
+    0% {width: 0;height: 0;-webkit-transform: scale(1);}
+    25% {width: 28px;height: 28px;-webkit-transform: scale(1.1);}
+    50% {width: 28px;height: 28px;-webkit-transform: scale(0.9); }
+    75% {width: 28px;height: 28px;-webkit-transform: scale(1.05); }
+    100% {width: 28px;height: 28px;-webkit-transform: scale(1); }
+}
+@-moz-keyframes animate {
+    0% {width: 0;height: 0;-moz-transform: scale(1);}
+    25% {width: 28px;height: 28px;-moz-transform: scale(1.1);}
+    50% {width: 28px;height: 28px;-moz-transform: scale(0.9); }
+    75% {width: 28px;height: 28px;-moz-transform: scale(1.05); }
+    100% {width: 28px;height: 28px;-moz-transform: scale(1); }
+}
+.clock{
+    position: absolute;
+    overflow: hidden;
+    text-indent: -9999;
+    z-index: 2;
+}
+.clock1{
+    right: 13%;
+    top: 109px;
+    width: 23px;
+    height: 28px;
+    margin-right: -11px;
+    background: url("../images/clock-1.png") no-repeat;
+    background-size: 23px 28px;
+}
+.clock2{
+    right: 136px;
+    top: 0;
+    width: 13px;
+    height: 17px;
+    background: url(../images/clock-2.png) no-repeat;
+    background-size: 13px 17px;
+}
+.balloon{
+    position: absolute;
+    bottom: -100px;
+    overflow: hidden;
+    text-indent: -9999px;
+    -webkit-transition: bottom 1.5s ease-in-out;
+    -moz-transition: bottom 1.5s ease-in-out;
+    transition: bottom 1.5s ease-in-out;
+    z-index:3;
+}
+.ball1 {
+    left: 3px;
+    width: 61px;
+    height: 87px;
+    background: url("../images/b1.png") no-repeat;
+    background-size: 61px 87px;
+    -webkit-animation: moving1 5s ease-in-out infinite 2.2s;
+    -moz-animation: moving1 5s ease-in-out infinite 2.2s;
+    animation: moving1 5s ease-in-out infinite 2.2s;
+}
+.ball2 {
+    right: 10px;
+    width: 71px;
+    height: 99px;
+    background: url("../images/b2.png") no-repeat;
+    background-size: 71px 99px;
+    -webkit-animation: moving2 5s ease-in-out infinite 2.4s;
+    -moz-animation: moving2 5s ease-in-out infinite 2.4s;
+    animation: moving2 5s ease-in-out infinite 2.4s;
+}
+@-webkit-keyframes moving1 {
+    0% {bottom: -80px}
+    25% {bottom: 20px}
+    75% {bottom: 20px}
+    100% {bottom: 160px}
+}
+@-moz-keyframes moving1 {
+    0% {bottom: -80px}
+    25% {bottom: 20px}
+    75% {bottom: 20px}
+    100% {bottom: 160px}
+}
+@-webkit-keyframes moving2 {
+    0% {bottom: -80px}
+    25% {bottom: 50px}
+    75% {bottom: 50px}
+    100% {bottom: 160px}
+}
+@-moz-keyframes moving2 {
+    0% {bottom: -80px}
+    25% {bottom: 70px}
+    75% {bottom: 70px}
+    100% {bottom: 160px}
+}
+.share-mod{
+    padding: 10px 10px 0;
+    position: relative;
+    background-color: #2ae58c;
+}
+.share{
+    width: 96%;
+    padding: 2%;
+}
+.cardContent{
+    padding: 10px 10px 50px;
+    position: relative;
+    background-color: #2ae58c;
+}
+.s-text{
+    width: 230px;
+    height: 43.5%;
+    padding: 2px 28px 2px 30px;
+    overflow: hidden;
+    top: 17%;
+    left: 50%;
+    margin-left: -144px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+}
+.s-alide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.prev{
+    left: 0;
+    border-top-left-radius: 5px;
+    background: #2be58b url("../images/prev.jpg") no-repeat 7px 50%;
+    border-bottom-left-radius: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.next{
+    right: 0;
+    border-top-right-radius: 5px;
+    background: #2be58b url(../images/next.jpg) no-repeat 7px 50%;
+    border-bottom-right-radius: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.package{
+    margin-bottom: 5px;
+    font-size: 0;
+}
+.mark{
+    color: #FBF17D;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.shareLink{
+    width: 75.8%;
+    height: 21.8%;
+    bottom: 7%;
+    left: 13%;
+    position: absolute;
+    z-index: 1;
+}
+#link1,#link2,#link3{
+    width: 33%;
+    height: 100%;
+}
+#link2{
+    left: 33%;
+}
+#link3{
+    right: 0;
+}
+#warp ul{
+    margin: 0px;
+    padding: 0px;
+    width: 1175px;
+    transform-origin: 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    list-style: none;
+}
+#warp ul li{
+    float: left;
+    width: 235px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4FC57F;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
